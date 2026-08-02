@@ -164,6 +164,8 @@ header nav ul li a:hover {
 }
 /* ===== Galería ===== */
 .galeria {
+  position: relative;
+  min-height: 100vh;
   padding: 60px 40px;
   text-align: center;
   background-image: url('imagenes/Fonda.jpg');
