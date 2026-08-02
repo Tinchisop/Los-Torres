@@ -110,6 +110,12 @@ header nav ul li a:hover {
   padding: 80px 40px;
   text-align: center;
 }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
 
 .menu h2 {
   font-size: 2rem;
@@ -160,6 +166,9 @@ header nav ul li a:hover {
 .galeria {
   padding: 60px 40px;
   text-align: center;
+  background-image: url('imagenes/Fonda.jpg');
+  background-size: cover;
+  background-position: center;
 }
 .galeria h2 {
   font-size: 2rem;
