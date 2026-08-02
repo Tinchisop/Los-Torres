@@ -8,6 +8,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
+  background-color: #1A1512;
 }
 
 /* ===== Header ===== */
@@ -46,7 +47,7 @@ header nav ul li a:hover {
 /* ===== Hero ===== */
 .hero {
   position: relative;
-  height: 90vh;
+  height: 100vh;
   background-image: url('imagenes/hero-parrilla.jpg');
   background-size: cover;
   background-position: center;
@@ -82,17 +83,69 @@ header nav ul li a:hover {
   line-height: 1.5;
 }
 
-.boton {
-  display: inline-block;
-  background-color: #D65A2E;
-  color: #fff;
-  text-decoration: none;
-  padding: 14px 32px;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: background-color 0.2s ease;
+/* ===== Nuestra Historia ===== */
+.historia {
+  background-color: #2B1B14;
+  padding: 80px 20px;
+  text-align: center;
 }
 
-.boton:hover {
-  background-color: #B8461F;
+.historia-contenido {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.historia-contenido h2 {
+  font-size: 2rem;
+  color: #D65A2E;
+  margin-bottom: 20px;
+}
+
+.historia-contenido p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #E8DCCF;
+}
+.menu {
+    padding: 80px 40px;
+    text-align: center;
+}
+.menu h2 {
+    font-size: 2rem;
+    color: #D65A2E;
+    margin-bottom: 50px;
+}
+.card {
+    background-color:#2B1B14
+    border-radius: 10px;
+    overflow: hidden;
+    width: 320px;
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: translateY(-6px);
+}
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.card h3 {
+    font-size: 1.3rem;
+    margin: 18px 20px 8px
+    color: #fff;    
+}
+.card p {
+    font-size: 0.95rem;
+    color: #c9b8a3
+    margin: 0 20px 16px;
+    line-height: 1.5;
+}
+.card .precio {
+    display: block;
+    font-weight: bold;
+    color: #D65A2E;
+    font-size: 1.1rem;
+    margin: 0 20px 20px;
 }
