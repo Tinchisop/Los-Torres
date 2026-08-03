@@ -203,4 +203,26 @@ header nav ul li a:hover {
     color: #D65A2E;
     margin-bottom: 12px;
   }
-  
+  .contacto-bajada {
+    color: #c9b8a3;
+    font-size: 40px;
+  }
+  .formulario {
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #2B1B14;
+  border: 1px solid rgba(232, 220, 207, 0.15);
+  border-radius: 14px;
+  padding: 36px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.formulario label {
+  color: #D65A2E;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
