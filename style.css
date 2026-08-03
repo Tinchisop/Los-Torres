@@ -193,3 +193,14 @@ header nav ul li a:hover {
 .mosaico img:hover {
     transform: scale(1.05);
   }
+  /* ===== Contacto / Formulario ===== */
+  .contacto {
+    padding: 80px 20px 100px;
+    text-align: center;
+  }
+  .contacto h2 {
+    font-size: 2renm;
+    color: #D65A2E;
+    margin-bottom: 12px;
+  }
+  
