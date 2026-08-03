@@ -20,16 +20,54 @@
       </ul>
     </nav>
   </header>
-  <Section class="contacto"
-  <h2>Reservá tu Mesa</h2>
-   <p class="contacto-bajada">Para reservar tu mesa, completá el siguiente formulario y nos pondremos en contacto a la brevedad.</p>
-    <form class="formulario"
-    <label for="nombre">Nombre y Apellido</label>
-    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="tu@email">
-</form>
-</section>
+<section class="contacto">
+    <h2>Reservá tu Mesa</h2>
+    <p class="contacto-bajada">Completá el formulario y te confirmamos la disponibilidad a la brevedad.</p>
 
-</body>
-</html>
+    <form class="formulario">
+
+      <label for="nombre">Nombre y apellido</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+
+      <label for="telefono">Teléfono</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="Ej: +54 11-5555-5555">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com">
+
+      <label for="motivo">Motivo de la reserva</label>
+      <select id="motivo" name="motivo">
+        <option value="">Seleccioná una opción</option>
+        <option value="cena">Cena en pareja</option>
+        <option value="familia">Almuerzo o cena familiar</option>
+        <option value="grupo">Grupo grande (+6 personas)</option>
+        <option value="evento">Evento privado / cumpleaños</option>
+      </select>
+
+      <div class="campo-radio">
+        <label>¿Es tu primera vez en Los Torres?</label>
+        <div class="radio-opciones">
+          <label class="radio-label"><input type="radio" name="primera-vez" value="si" checked> Sí</label>
+          <label class="radio-label"><input type="radio" name="primera-vez" value="no"> No</label>
+        </div>
+      </div>
+
+      <div class="campo-checkbox">
+        <label>¿Dónde preferís sentarte?</label>
+        <div class="checkbox-opciones">
+          <label class="checkbox-label"><input type="checkbox" name="lugar" value="interior"> Salón interior</label>
+          <label class="checkbox-label"><input type="checkbox" name="lugar" value="patio"> Patio al aire libre</label>
+          <label class="checkbox-label"><input type="checkbox" name="lugar" value="barra"> Barra</label>
+        </div>
+      </div>
+
+      <label for="comentarios">Comentarios</label>
+      <textarea id="comentarios" name="comentarios" placeholder="Alergias, pedidos especiales, cantidad de personas, horario preferido..."></textarea>
+
+      <div class="formulario-botones">
+        <button type="submit" class="boton">Reservar Mesa</button>
+        <button type="reset" class="boton boton-secundario">Limpiar Formulario</button>
+      </div>
+
+    </form>
+  </section>
