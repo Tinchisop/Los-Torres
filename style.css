@@ -204,8 +204,8 @@ transition: transform 0.25s ease;
   display: block;
 }
 .galeria-texto h3 {
-  font-size: 1.1rem
-  margin-bottom 6px;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
   color: #fff;
 }
 .galeria-texto p {
@@ -226,7 +226,7 @@ transition: transform 0.25s ease;
   /* ===== Contacto / Formulario ===== */
   .contacto {
     padding: 80px 20px 100px;
-    text-align: center;
+    text-align: center; 
   }
   .contacto h2 {
     font-size: 2rem;
