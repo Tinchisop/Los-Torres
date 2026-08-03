@@ -227,18 +227,25 @@ header nav ul li a:hover {
   }
   /* ===== Contacto / Formulario ===== */
   .contacto {
-    padding: 80px 20px 100px;
-    text-align: center; 
+    position: relative;
+  padding: 80px 20px 100px;
+  text-align: center;
+  background-image: url('imagenes/galeria-04.jpg.png');
+  background-size: cover;
+  background-position: center;
   }
-  .contacto h2 {
-    font-size: 2rem;
-    color: #D65A2E;
-    margin-bottom: 12px;
+  .contacto::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(20, 12, 8, 0.75);
   }
-  .contacto-bajada {
-    color: #c9b8a3;
-    font-size: 40px;
-  }
+  .contacto h2,
+  .contacto-bajada,
+  .formulario {
+    position: relative;
+    z-index: 1;
+ }
   .formulario {
   max-width: 480px;
   margin: 0 auto;
