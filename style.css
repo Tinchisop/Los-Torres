@@ -121,7 +121,7 @@ header nav ul li a:hover {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 24px;
   justify-content: center;
 }
 
@@ -132,12 +132,11 @@ header nav ul li a:hover {
 }
 
 .card {
-  background-color: #2B1B14;
-  border-radius: 10px;
-  overflow: hidden;
-  width: 320px;
-  text-align: left;
-  transition: transform 0.2s ease;
+ flex: 1 1 260px;
+ max-width: 320px;
+ background-color: rgba(43, 27, 20, 0.9);
+ border-radius: 10px;
+ overflow: hidden;
 }
 
 .card:hover {
