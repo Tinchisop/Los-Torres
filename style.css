@@ -185,21 +185,23 @@ header nav ul li a:hover {
     justify-content: center;
     position: relative;
     z-index: 1;
+    max-width: 1360px;
+    margin: 0 auto;
 }
 .galeria-item {
   background-color: rgba(43, 27, 20, 0.9);
   border-radius:  10px;
   overflow: hidden;
-width: 280px;
-text-align: left;
-transition: transform 0.25s ease;
+ width: 310px;
+ text-align: left;
+ transition: transform 0.25s ease;
 }
 .galeria-item:hover {
   transform: translateY(-6px);
 }
 .galeria-item img {
   width: 100%;
-  height: 200px;
+  height: 240px;
   object-fit: cover;
   display: block;
 }
