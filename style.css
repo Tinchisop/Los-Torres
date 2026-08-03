@@ -342,3 +342,24 @@ header nav ul li a:hover {
   border-color: #D65A2E !important;
   color: #D65A2E;
 }
+footer {
+  background-color: #2B1B14;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.redes a {
+  color: #E8DCCF;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.redes a:hover {
+  color: #D65A2E;
+}
