@@ -107,8 +107,16 @@ header nav ul li a:hover {
   color: #E8DCCF;
 }
 .menu {
+  min-height: 100vh;
   padding: 80px 40px;
-  text-align: center;
+  background-image: url('imagenes/galeria-07.jpg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .cards {
   display: flex;
