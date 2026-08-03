@@ -274,4 +274,22 @@ header nav ul li a:hover {
     font-weight: normal;
     font-size: 0.95rem;
   }
-  
+  .formulario-botones {
+    display: flex;
+    gap: 14px;
+    margin-top: 28px;
+  }
+  .formulario-botones .boton {
+    border: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .boton-secundario {
+    background-color: transparent;
+    border: 1px solid rgba(232, 220, 207, 0.3);
+    color: #E8DCCF;
+  }
+  .boton-secundario:hover {
+  border-color: #D65A2E !important;
+  color: #D65A2E;
+}
