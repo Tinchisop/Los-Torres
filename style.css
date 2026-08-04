@@ -370,3 +370,48 @@ footer {
 .redes a:hover {
   color: #D65A2E;
 }
+/* ===== Google Font ===== */
+.logo,
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* ===== Botón CTA del Hero ===== */
+.boton-hero {
+  display: inline-block;
+  background-color: #D65A2E;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.25s ease;
+}
+
+.boton-hero:hover {
+  background-color: #b8481f;
+}
+
+/* ===== Botón de acción en cada card del menú ===== */
+.card .precio {
+  margin: 0 20px 12px;
+}
+
+.boton-card {
+  display: inline-block;
+  margin: 0 20px 20px;
+  padding: 8px 18px;
+  background-color: #D65A2E;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  transition: background-color 0.25s ease;
+}
+
+.boton-card:hover {
+  background-color: #b8481f;
+}
